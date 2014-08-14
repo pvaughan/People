@@ -9,10 +9,18 @@
 /* Begin PBXBuildFile section */
 		BD625FE01992872F00E58D24 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD625FDF1992872F00E58D24 /* AppDelegate.swift */; };
 		BD625FE31992872F00E58D24 /* People.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BD625FE11992872F00E58D24 /* People.xcdatamodeld */; };
-		BD625FE51992872F00E58D24 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD625FE41992872F00E58D24 /* ViewController.swift */; };
 		BD625FE81992872F00E58D24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD625FE61992872F00E58D24 /* Main.storyboard */; };
 		BD625FEA1992872F00E58D24 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD625FE91992872F00E58D24 /* Images.xcassets */; };
 		BD625FF61992873000E58D24 /* PeopleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD625FF51992873000E58D24 /* PeopleTests.swift */; };
+		BD626000199287FC00E58D24 /* PeopleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD625FFF199287FC00E58D24 /* PeopleViewController.swift */; };
+		BD6260021992895200E58D24 /* DB.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6260011992895200E58D24 /* DB.swift */; };
+		BD62600519928BFA00E58D24 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD62600419928BFA00E58D24 /* Person.swift */; };
+		BD867CDF19934BAE0077AF11 /* AB.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD867CDE19934BAE0077AF11 /* AB.swift */; };
+		BD867CE2199364850077AF11 /* PersonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD867CE0199364850077AF11 /* PersonCell.swift */; };
+		BD867CE3199364850077AF11 /* PersonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD867CE1199364850077AF11 /* PersonCell.xib */; };
+		BDD6498A199B8BCF005F9DA1 /* ABPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD64989199B8BCF005F9DA1 /* ABPerson.swift */; };
+		BDD6498E199B9D6C005F9DA1 /* CompaniesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD6498D199B9D6C005F9DA1 /* CompaniesViewController.swift */; };
+		BDD64990199BCC98005F9DA1 /* ABPeopleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD6498F199BCC98005F9DA1 /* ABPeopleViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,12 +38,21 @@
 		BD625FDE1992872F00E58D24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD625FDF1992872F00E58D24 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BD625FE21992872F00E58D24 /* People.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = People.xcdatamodel; sourceTree = "<group>"; };
-		BD625FE41992872F00E58D24 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BD625FE71992872F00E58D24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BD625FE91992872F00E58D24 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		BD625FEF1992873000E58D24 /* PeopleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeopleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD625FF41992873000E58D24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD625FF51992873000E58D24 /* PeopleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleTests.swift; sourceTree = "<group>"; };
+		BD625FFF199287FC00E58D24 /* PeopleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeopleViewController.swift; sourceTree = "<group>"; };
+		BD6260011992895200E58D24 /* DB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DB.swift; sourceTree = "<group>"; };
+		BD62600319928BF900E58D24 /* People-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "People-Bridging-Header.h"; sourceTree = "<group>"; };
+		BD62600419928BFA00E58D24 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		BD867CDE19934BAE0077AF11 /* AB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AB.swift; sourceTree = "<group>"; };
+		BD867CE0199364850077AF11 /* PersonCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonCell.swift; sourceTree = "<group>"; };
+		BD867CE1199364850077AF11 /* PersonCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PersonCell.xib; sourceTree = "<group>"; };
+		BDD64989199B8BCF005F9DA1 /* ABPerson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ABPerson.swift; sourceTree = "<group>"; };
+		BDD6498D199B9D6C005F9DA1 /* CompaniesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompaniesViewController.swift; sourceTree = "<group>"; };
+		BDD6498F199BCC98005F9DA1 /* ABPeopleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ABPeopleViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +94,21 @@
 		BD625FDC1992872F00E58D24 /* People */ = {
 			isa = PBXGroup;
 			children = (
+				BD6260011992895200E58D24 /* DB.swift */,
+				BD867CDE19934BAE0077AF11 /* AB.swift */,
 				BD625FDF1992872F00E58D24 /* AppDelegate.swift */,
-				BD625FE41992872F00E58D24 /* ViewController.swift */,
+				BD625FFF199287FC00E58D24 /* PeopleViewController.swift */,
+				BDD6498D199B9D6C005F9DA1 /* CompaniesViewController.swift */,
+				BDD6498F199BCC98005F9DA1 /* ABPeopleViewController.swift */,
+				BD867CE0199364850077AF11 /* PersonCell.swift */,
+				BD867CE1199364850077AF11 /* PersonCell.xib */,
 				BD625FE61992872F00E58D24 /* Main.storyboard */,
 				BD625FE91992872F00E58D24 /* Images.xcassets */,
 				BD625FE11992872F00E58D24 /* People.xcdatamodeld */,
+				BD62600419928BFA00E58D24 /* Person.swift */,
+				BDD64989199B8BCF005F9DA1 /* ABPerson.swift */,
 				BD625FDD1992872F00E58D24 /* Supporting Files */,
+				BD62600319928BF900E58D24 /* People-Bridging-Header.h */,
 			);
 			path = People;
 			sourceTree = "<group>";
@@ -194,6 +220,7 @@
 			files = (
 				BD625FE81992872F00E58D24 /* Main.storyboard in Resources */,
 				BD625FEA1992872F00E58D24 /* Images.xcassets in Resources */,
+				BD867CE3199364850077AF11 /* PersonCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,9 +238,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD625FE51992872F00E58D24 /* ViewController.swift in Sources */,
+				BDD6498E199B9D6C005F9DA1 /* CompaniesViewController.swift in Sources */,
+				BD62600519928BFA00E58D24 /* Person.swift in Sources */,
+				BDD64990199BCC98005F9DA1 /* ABPeopleViewController.swift in Sources */,
+				BD626000199287FC00E58D24 /* PeopleViewController.swift in Sources */,
+				BD867CDF19934BAE0077AF11 /* AB.swift in Sources */,
+				BDD6498A199B8BCF005F9DA1 /* ABPerson.swift in Sources */,
 				BD625FE31992872F00E58D24 /* People.xcdatamodeld in Sources */,
+				BD6260021992895200E58D24 /* DB.swift in Sources */,
 				BD625FE01992872F00E58D24 /* AppDelegate.swift in Sources */,
+				BD867CE2199364850077AF11 /* PersonCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,9 +365,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = People/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "People/People-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -342,9 +379,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = People/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "People/People-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -401,6 +440,7 @@
 				BD625FFB1992873000E58D24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BD625FFC1992873000E58D24 /* Build configuration list for PBXNativeTarget "PeopleTests" */ = {
 			isa = XCConfigurationList;
@@ -409,6 +449,7 @@
 				BD625FFE1992873000E58D24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
